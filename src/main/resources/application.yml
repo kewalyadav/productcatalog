@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: productcatalog
+  jackson:
+    mapper:
+      ACCEPT_CASE_INSENSITIVE_VALUES: true
+    deserialization:
+      FAIL_ON_UNKNOWN_PROPERTIES: true
+  main:
+    banner-mode: off
+    allow-bean-definition-overriding: true
+  datasource:
+    url: 'jdbc:h2:mem:productcatalog'
+    driverClassName: org.h2.Driver
+    username: sa
+    password: 
+  sql:
+    init:
+      mode: always
+  h2:
+    console:
+      path: /h2
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        format_sql: false
+      validator:
+        apply_to_ddl: false
