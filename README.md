@@ -32,7 +32,7 @@ To run the application locally:
 
 <pre>mvn spring-boot:run</pre>
 
-above two commands run the application.
+Use above two commands to run the application.
 
 Application runs from <b>http://localhost:8080</b> and it will open Swagger UI <b>http://localhost:8080/swagger-ui/index.html</b>
 
