@@ -17,7 +17,7 @@ This project based on the Spring Boot project and used packages:
 
 ### 1. Clone the application
 
-<pre> $ git clone https://github.com/kewalyadav/spring-boot-product-catalog.git </pre>
+<pre> $ git clone https://github.com/kewalyadav/productcatalog.git </pre>
 
 ### 2. Database Configuration
 
